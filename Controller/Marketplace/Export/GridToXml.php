@@ -55,7 +55,7 @@ class GridToXml extends AbstractUiAction
 
     /**
      * @param Context $context
-     * @param ConvertToCsv $converter
+     * @param ConvertToXml $converter
      * @param FileFactory $fileFactory
      * @param Session $customerSession
      * @param CustomerUrl $customerUrl
@@ -68,7 +68,7 @@ class GridToXml extends AbstractUiAction
      */
     public function __construct(
         Context $context,
-        ConvertToCsv $converter,
+        ConvertToXml $converter,
         FileFactory $fileFactory,
         Session $customerSession,
         CustomerUrl $customerUrl,
